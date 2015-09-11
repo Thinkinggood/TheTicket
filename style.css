@@ -1,0 +1,252 @@
+/*
+Theme Name:     Podcaster Child Theme
+Description:    Child theme for the Podcaster theme
+Author:         Theme Station Team
+Template:       podcaster
+*/
+
+@import url("../podcaster/style.css");
+
+/* This is your child theme css file. Do not edit anything above this line. Write all your custom css declarations below this line. 
+ * You might have to use "!important" to override some settings. To find out more about WordPress child themes please visit 
+ * http://codex.wordpress.org/Child_Themes */
+
+#pagewrap {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.list-of-episodes article.list {
+  
+  margin-top:40px;
+  overflow: hidden;
+}
+
+.list-of-episodes article.list .inside {
+  padding:30px;
+  position: absolute;
+  height:260px;
+  left: 260px;
+  right: 0;
+}
+
+.list-of-episodes .inside {
+  background-color:#fff;
+  
+}
+
+.post .audio_player {
+  background:#228C8B;
+  bottom: 0;
+  left: 0;
+  padding:10px 10px;
+  position: absolute;
+  right: 0;
+}
+
+footer {
+	background-color: white;
+	bottom: 0;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+}
+
+footer h2 {
+	color: black;
+	font-family: 'circularStd-Bold', helvetica;
+	font-size: 20px;
+	letter-spacing: .75px;
+	margin: 19px 4px 8px 0px;
+	text-transform: uppercase;
+
+}
+
+
+
+#logo {
+	background: url(../img/ticket_logo.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 150px;
+	margin: auto;
+	width: 240px;
+	}
+
+#sponsors {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.sponsor-logos {
+	background-color: white;
+	vertical-align: center;
+	margin: auto;
+    
+}
+
+.sponsor-logos > li {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.sponsor-logos-kut {
+	background: url(../img/kut.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 60px;
+	margin: 10px 0px -10px 0px;
+	padding-left: 20px;
+	width: 100px;
+	
+
+
+}
+.sponsor-logos-tt {
+	background: url(../img/tribunelogo.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	margin: 0px 5px 6px 10px;
+	padding-left: 20px;
+	width: 232px;
+}
+
+footer.main {
+  	line-height: 30px;
+  	background-color: white;
+  	webkit-box-shadow: -2px -11px 91px -30px rgba(0,0,0,0.93);
+	-moz-box-shadow: -2px -11px 91px -30px rgba(0,0,0,0.93);
+	box-shadow: -2px -11px 91px -30px rgba(0,0,0,0.93);
+
+}
+
+.social-icon-soundcloud {
+	background: url(../img/soundcloudlogo.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	margin: 0px -8px -1px 7px;
+	width: 50px;
+	
+}
+
+.social-icon-apple {
+	background: url(../img/applelogo.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	margin: 0px 0px -1px 0px;
+	width: 25px;
+	
+}
+
+.social-icon-stitcher {
+	background: url(../img/stitcherlogo.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	margin: 0px 10px -3px 3px;
+	width: 50px;
+	
+}
+
+.super-container {
+  position: relative;
+  width: 100%;
+  overflow:hidden;
+  background-color: #ec4a24;
+}
+
+.social-icons {
+
+	position: absolute;
+	list-style: none;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	right: 0;   
+}
+
+
+.social-icons > li {
+	display: inline-block;
+	}
+
+h1 {
+	color: white;
+	font-family: 'circularStd-Bold', helvetica;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 30px 0px 10px 0px;
+	src: url(CircularStd-Bold.otf) format("truetype");
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+
+}
+a :not(.nohover):hover{
+	text-decoration: none;
+}
+
+header {
+	height: 50px;	
+}
+
+body {
+	background-color: #ec4a24;
+
+}
+
+#main-content {
+	background-color: #ec4a24;
+	margin: 120px 0px 50px 0px;
+
+}
+#main-content h1 {
+	color: white;
+	font-family: 'circularStd-Bold', helvetica;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 30px 0px 10px 0px;
+	src: url(CircularStd-Bold.otf) format("truetype");
+	text-transform: uppercase;
+}
+
+#intro {
+	color: white;
+	font-family: 'circularStd', helvetica;
+	letter-spacing: .75px;
+	line-height: 20px;
+}
+
+.latest-episode.front-header .translucent {
+  padding:0 0 0 0;
+}
+
+.latest-episode .main-featured-post .mini-title {
+	color: #FFFFFF !important;
+}
+
+.latest-episode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+ background-color:#FFFFFF!important; 
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #619c9c;
+ 
+}
+.post .audio_player .mejs-controls .mejs-time-rail .mejs-time-current,
+.post .audio_player .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.post .powerpress_player .mejs-controls .mejs-time-rail .mejs-time-current,
+.post .powerpress_player .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  background-color:#ffffff!important;
+}
+
+.navigation .menu {
+  padding:20px 0;
+  text-align:right;
+}
+
