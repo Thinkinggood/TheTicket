@@ -29,6 +29,8 @@ $pod_responsive_style = isset( $options['pod-responsive-style'] ) ? $options['po
 
 ?>
 
+<!-- Test -->
+
 <div class="above <?php echo $pod_stcky_hdr; ?> <?php echo $pod_nav_bg_state; ?> <?php echo $pod_responsive_style; ?>">
 <div id="subscribe">
 						<ul class="social-icons">
