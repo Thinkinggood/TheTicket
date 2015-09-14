@@ -62,6 +62,10 @@ footer h2 {
 
 }
 
+#subscribe {
+	margin-right: 28px;
+}
+
 
 
 #logo {
@@ -159,12 +163,10 @@ footer.main {
 }
 
 .social-icons {
-
-	position: absolute;
 	list-style: none;
 	margin-top: -10px;
 	margin-bottom: 10px;
-	right: 0;   
+	text-align: center;
 }
 
 
@@ -250,3 +252,113 @@ a:visited {
   text-align:right;
 }
 
+.latest-episode .audio_player,
+.latest-episode .powerpress_player {
+  padding:0px 10px 10px 10px;
+  background-color: #ec4a24;
+}
+
+@media screen and (max-width: 480px) {
+  /* General */
+
+#intro {
+	color: white;
+	font-family: 'circularStd', helvetica;
+	letter-spacing: .75px;
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+	
+}
+#main-content h1 {
+	color: white;
+	font-family: 'circularStd-Bold', helvetica;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 30px 0px 10px 0px;
+	src: url(CircularStd-Bold.otf) format("truetype");
+	text-transform: uppercase;
+}
+.latest-episode .audio_player,
+.latest-episode .powerpress_player {
+  padding:0px 10px 0px 10px;
+  background-color: #ec4a24;
+  margin-top: 142px;
+}
+
+
+br {
+	display: none;
+	visibility: hidden;
+}
+footer h2 {
+	display: none;
+	visibility: hidden;
+}
+
+.postfooter {
+	display: none;
+	visibility: hidden;
+
+}
+
+.sponsor-logos {
+	background-color: white;
+	vertical-align: center;
+	margin-left: -40px;
+    
+}
+
+.list-of-episodes article.list .inside {
+  padding:30px;
+  position: relative;
+  height:260px;
+  left: 0px;
+  right: 0;
+}
+.list-of-episodes article .featured-image {
+
+	display: none;
+	visibility: hidden;
+  
+}
+.list-of-episodes {
+  padding:0px 0 80px 0;
+ 
+}
+.latest-episode.front-header {
+  padding:0;
+  position: relative;
+  height: 260px;
+}
+
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+ body {
+    font-size: 14px;
+    background-color:#fff;
+    line-height: 16px;
+  }
+
+  footer {
+  	height: 90px;
+  }
+  #sponsors {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.latest-episode.sticky .main-featured-post {
+  margin:30px 0px 95px 0px;
+}
+
+.latest-episode .main-featured-post .mini-title{
+	padding: 0px 30px;
+
+}
+
+.latest-episode h2 {
+	padding:0px 30px;
+}

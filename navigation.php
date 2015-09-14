@@ -32,22 +32,7 @@ $pod_responsive_style = isset( $options['pod-responsive-style'] ) ? $options['po
 <!-- Test -->
 
 <div class="above <?php echo $pod_stcky_hdr; ?> <?php echo $pod_nav_bg_state; ?> <?php echo $pod_responsive_style; ?>">
-<div id="subscribe">
-						<ul class="social-icons">
-							<li>
-							<h1>subscribe</h1>
-							</li>
-							<li>
-							<a class="social-icon-soundcloud" href"https://soundcloud.com/the-ticket-2016"></a>
-							</li>
-							<li>
-							<a class="social-icon-apple" href"https://itunes.apple.com/us/podcast/the-ticket-2016/id993772746?mt=2"></a>
-							</li>
-							<li>
-							<a class="social-icon-stitcher" href "http://www.stitcher.com/podcast/kut-news-905/e/the-ticket-episode-1-37729574"></a>
-							</li>
-						</ul>
-					</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-3">
@@ -83,6 +68,23 @@ $pod_responsive_style = isset( $options['pod-responsive-style'] ) ? $options['po
 </div><!-- .above -->
 <div id="main-content">
 		<div id="logo"></div>
-		<h1><center>hosted by Ben Philpot &amp; Jay Root</center></h1>
+		<h1><center>hosted by Ben Philpott &amp; Jay Root</center></h1>
 		<center><p id="intro">Each week KUT's Ben Philpott and the Tribune's Jay Root provide a rundown<br>of the week's campaign actions and bring you interviews with people who<br> make a living working on, covering or commenting on the campaigns.</p></center>
+		<div id="subscribe">
+						<ul class="social-icons">
+							<li>
+							<h1>subscribe</h1>
+							</li>
+							<li>
+							<a class="social-icon-soundcloud" href"https://soundcloud.com/the-ticket-2016"></a>
+							</li>
+							<li>
+							<a class="social-icon-apple" href"https://itunes.apple.com/us/podcast/the-ticket-2016/id993772746?mt=2"></a>
+							</li>
+							<li>
+							<a class="social-icon-stitcher" href "http://www.stitcher.com/podcast/kut-news-905/e/the-ticket-episode-1-37729574"></a>
+							</li>
+						</ul>
+					</div>
+
 		</div> <!-- END  main content -->
