@@ -258,6 +258,12 @@ a:visited {
   background-color: #ec4a24;
 }
 
+.single .single-featured {
+  background-color: #EEEEEE;
+  padding:0;
+  background-image:url(/wp-content/themes/podcaster-files-1.4.9/img/whitehouse.png);
+}
+
 @media screen and (max-width: 480px) {
   /* General */
 
