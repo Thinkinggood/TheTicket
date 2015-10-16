@@ -38,7 +38,7 @@ $pod_linkedin = isset( $options['pod-linkedin'] ) ? $options['pod-linkedin'] : '
 <div id="sponsors">
 			<ul class="sponsor-logos">
 				<li>
-					<h2>Brought to you by</h2>
+					<h2>Brought to you bye</h2>
 				</li>
 				<li>
 					<a class="sponsor-logos-kut" href="http://kut.org/"></a>
