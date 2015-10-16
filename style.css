@@ -72,9 +72,9 @@ footer h2 {
 	background: url(../img/ticket_logo.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 150px;
+	height: 250px;
 	margin: auto;
-	width: 240px;
+	width: 414px;
 	}
 
 #sponsors {
@@ -184,6 +184,32 @@ h1 {
 	text-transform: uppercase;
 }
 
+h2 {
+	font-family: 'circularStd-Bold', helvetica;
+	src: url(CircularStd-Bold.otf) format("truetype");
+	text-transform: uppercase;
+
+}
+
+.latest-episode h2 {
+	margin:12px 0 0 0;
+  	padding:0;
+  	font-size:36px;
+  	font-weight: 600;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #555555;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  overflow-x: hidden;
+  background-color:#e5e5e5;
+  line-height: 32px;
+  letter-spacing:.5px;
+}
+
 a {
 	text-decoration: none;
 
@@ -192,9 +218,6 @@ a :not(.nohover):hover{
 	text-decoration: none;
 }
 
-header {
-	height: 50px;	
-}
 
 body {
 	background-color: #ec4a24;
@@ -203,7 +226,7 @@ body {
 
 #main-content {
 	background-color: #ec4a24;
-	margin: 120px 0px 50px 0px;
+	margin: 160px 0px 50px 0px;
 
 }
 #main-content h1 {
@@ -237,7 +260,8 @@ body {
 a:link,
 a:visited {
   text-decoration: none;
-  color: #619c9c;
+  color: #EC4A24;
+  font-weight: bold;
  
 }
 .post .audio_player .mejs-controls .mejs-time-rail .mejs-time-current,
@@ -256,16 +280,91 @@ a:visited {
 .latest-episode .powerpress_player {
   padding:0px 10px 10px 10px;
   background-color: #ec4a24;
+ 
 }
 
 .single .single-featured {
   background-color: #EEEEEE;
   padding:0;
   background-image:url(/wp-content/themes/podcaster-files-1.4.9/img/whitehouse.png);
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y: 20%;
 }
 
-@media screen and (max-width: 480px) {
-  /* General */
+.single .player_container.with_thumbnail {
+  width:83%;
+  float:right;
+  background-color:#1B4A5E;
+  height: 170px;
+  padding-left: 30px;
+}
+
+.single .single-featured h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  margin:0 0 24px 0;
+}
+
+.single .single-featured .audio_player .mejs-controls .mejs-button button {
+  color:#ffffff;
+  
+}
+
+.single .mejs-container .mejs-controls .mejs-time span {
+  color:#ffffff;
+}
+
+.list-of-episodes article.list .post-header h2 {
+  font-size: 26px;
+  font-weight:600;
+  margin:4px 0 0 0;
+  line-height: 34px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+.single .entry-categories {
+	margin: 32px 0;
+  	padding: 0;
+  	list-style: none;
+	visibility: hidden;
+	
+}
+
+.single .album-art img {
+  width:170px;
+  height:auto;
+}
+
+/* Smaller than 970px width */
+@media screen and (max-width: 992px) { 
+
+.single .album-art img {
+  width:170px;
+  height:auto;
+}
+
+.latest-episode .audio_player,
+.latest-episode .powerpress_player {
+ 
+  
+}
+
+.latest-episode .main-featured-post .featured-excerpt {
+	display: none;
+	visibility: hidden;
+}
+
+.podcaster-theme .post .entry-content .mejs-container.wp-audio-shortcode.mejs-audio,
+  .podcaster-theme .latest-episode .mejs-container.wp-audio-shortcode.mejs-audio {
+    height:0px;
+  }
+
+
 
 #intro {
 	color: white;
@@ -286,9 +385,8 @@ a:visited {
 }
 .latest-episode .audio_player,
 .latest-episode .powerpress_player {
-  padding:0px 10px 0px 10px;
-  background-color: #ec4a24;
-  margin-top: 142px;
+  background-color: #1B4A5E;
+
 }
 
 
@@ -307,12 +405,6 @@ footer h2 {
 
 }
 
-.sponsor-logos {
-	background-color: white;
-	vertical-align: center;
-	margin-left: -40px;
-    
-}
 
 .list-of-episodes article.list .inside {
   padding:30px;
@@ -322,7 +414,6 @@ footer h2 {
   right: 0;
 }
 .list-of-episodes article .featured-image {
-
 	display: none;
 	visibility: hidden;
   
@@ -357,7 +448,7 @@ footer h2 {
 }
 
 .latest-episode.sticky .main-featured-post {
-  margin:30px 0px 95px 0px;
+  
 }
 
 .latest-episode .main-featured-post .mini-title{
@@ -367,4 +458,247 @@ footer h2 {
 
 .latest-episode h2 {
 	padding:0px 30px;
+  	
+}
+
+.single .album-art img {
+  display: none;
+  visibility: hidden;
+  
+}
+.single .player_container.with_thumbnail{
+  width: 100%;
+}
+
+ .single .thst-main-posts {
+    padding:40px 30px;
+  }
+
+#logo {
+	background: url(../img/ticket_logo_mobile.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 150px;
+	margin: auto;
+	width: 240px;
+	}
+.thst-main-posts {
+    margin-top: -20px;
+}
+
+ .translucent {
+	height: 100%!important;
+
+ }
+
+
+}
+
+@media screen and (max-width: 667px) {
+
+.podcaster-theme .post .entry-content .mejs-container.wp-audio-shortcode.mejs-audio,
+  .podcaster-theme .latest-episode .mejs-container.wp-audio-shortcode.mejs-audio {
+    height:0px;
+  }
+
+
+
+#intro {
+	color: white;
+	font-family: 'circularStd', helvetica;
+	letter-spacing: .75px;
+	line-height: 20px;
+	margin: 0px 10px 10px 10px;
+	
+}
+#main-content h1 {
+	color: white;
+	font-family: 'circularStd-Bold', helvetica;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 30px 0px 10px 0px;
+	src: url(CircularStd-Bold.otf) format("truetype");
+	text-transform: uppercase;
+}
+.latest-episode .audio_player,
+.latest-episode .powerpress_player {
+  background-color: #1B4A5E;
+	
+}
+
+
+br {
+	display: none;
+	visibility: hidden;
+}
+footer h2 {
+	display: none;
+	visibility: hidden;
+}
+
+.postfooter {
+	display: none;
+	visibility: hidden;
+
+}
+
+
+.list-of-episodes article.list .inside {
+  padding:30px;
+  position: relative;
+  height:260px;
+  left: 0px;
+  right: 0;
+}
+.list-of-episodes article .featured-image {
+	display: none;
+	visibility: hidden;
+  
+}
+.list-of-episodes {
+  padding:0px 0 80px 0;
+ 
+}
+.latest-episode.front-header {
+  padding:0;
+  position: relative;
+  height: 260px;
+}
+
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+ body {
+    font-size: 14px;
+    background-color:#fff;
+    line-height: 16px;
+  }
+
+  footer {
+  	height: 90px;
+  }
+  #sponsors {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.latest-episode.sticky .main-featured-post {
+  
+}
+
+.latest-episode .main-featured-post .mini-title{
+	padding: 0px 30px;
+
+}
+
+.latest-episode h2 {
+	padding:0px 30px;
+  	
+}
+
+.single .album-art img {
+  display: none;
+  visibility: hidden;
+  
+}
+.single .player_container.with_thumbnail{
+  width: 100%;
+}
+
+ .single .thst-main-posts {
+    padding:40px 30px;
+  }
+
+#logo {
+	background: url(../img/ticket_logo_mobile.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 150px;
+	margin: auto;
+	width: 240px;
+	}
+.thst-main-posts {
+    margin-top: -20px;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+.sponsor-logos-kut {
+	background: url(../img/kut.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 30px;
+	padding-left: 20px;
+	width: 50px;
+	background-size: cover;
+	background-position:center;
+}
+.sponsor-logos-tt {
+	background: url(../img/tribunelogo.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 12.5px;
+	padding-left: 20px;
+	width: 116px;
+	background-size: cover;
+	background-position: center;
+	margin: 0px 0px 0px 10px!important;
+}
+
+.sponsor-logos {
+	background-color: white;
+	vertical-align: center;
+	margin-left: -40px;
+	margin-top: 10px;
+    
+}
+
+
+footer.main {
+  	line-height: 30px;
+  	background-color: white;
+  	webkit-box-shadow: -2px -11px 91px -30px rgba(0,0,0,0.93);
+	-moz-box-shadow: -2px -11px 91px -30px rgba(0,0,0,0.93);
+	box-shadow: -2px -11px 91px -30px rgba(0,0,0,0.93);
+	height: 70px;
+}
+.list-of-episodes article.list {
+  
+  margin-top:0px!important;
+  overflow: hidden;
+}
+
+
+.powerpress_player .mejs-audio {
+  width:100% !important;
+  height: 60px !important;
+}
+.latest-episode.front-header .mejs-container .mejs-controls, .latest-episode.front-header .mejs-container, .latest-episode.front-header .mejs-embed, .latest-episode.front-header .mejs-embed body {
+	margin-bottom: 17px;
+
+}
+.latest-episode .audio_player,
+.latest-episode .powerpress_player {
+  background-color: #1B4A5E;
+  	
+}
+
+.single .single-featured .background {
+  padding: 0px 0 0px 0; 
+}
+
+.single .player_container.with_thumbnail {
+  width:100%;
+  float:right;
+  background-color:#1B4A5E;
+  height: 100%;
+  padding-left: 30px;
+}
+.single .single-featured.sticky .background,
+.single .single-featured.transparent .background {
+  padding: 0px 0px 0px 0px; 
+}
 }
