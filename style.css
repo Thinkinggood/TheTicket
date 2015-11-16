@@ -15,7 +15,9 @@ Template:       podcaster
 	width: 100%;
 	margin: 0 auto;
 }
-
+.latest-episode .mejs-controls .mejs-button button {
+  color:#ffffff;
+}
 .list-of-episodes article.list {
   
   margin-top:40px;
