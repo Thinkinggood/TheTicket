@@ -282,7 +282,19 @@ a:visited {
 .latest-episode .powerpress_player {
   padding:0px 10px 10px 10px;
   background-color: #ec4a24;
- 
+}
+
+.latest-episode .audio_player audio,
+.post .audio_player audio { display: none; }
+
+footer.main { height: 130px; }
+footer.main > .audio_player {
+	background: #fe57a1;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .single .single-featured {

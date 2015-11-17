@@ -253,7 +253,7 @@ get_header(); ?>
                                                 $au_embedcode = wp_oembed_get( $audioembed );
                                                 echo '<div class="audio_player au_oembed">' . $au_embedcode . '</div><!--audio_player-->';
                                             } elseif($audiourl != '') {
-                                                echo '<div class="audio_player">' . do_shortcode('[audio src="' .$audiourl. '"][/audio]') . '</div><!--audio_player-->';
+                                                echo '<div class="audio_player"><a href="' . $audiourl . '" class="listen-now">Listen Now</a>' . do_shortcode('[audio src="' .$audiourl. '"][/audio]') . '</div><!--audio_player-->';
                                             } elseif( is_array( $audioplists ) ) {
                                                 echo do_shortcode('[playlist type="audio" ids="'.implode(',', array_keys($audioplists)).'"][/playlist]');
                                             } elseif ( $audioembedcode != '') {
@@ -619,7 +619,7 @@ get_header(); ?>
                                                         $au_embedcode = wp_oembed_get( $audioembed );
                                                         echo '<div class="audio_player au_oembed">' . $au_embedcode . '</div><!--audio_player-->';
                                                     } elseif($audiourl != '') {
-                                                        echo '<div class="audio_player">' . do_shortcode('[audio src="' .$audiourl. '"][/audio]') . '</div><!--audio_player-->';
+                                                        echo '<div class="audio_player"><a href="' . $audiourl . '" class="listen-now">Listen Now</a>' . do_shortcode('[audio src="' .$audiourl. '"][/audio]') . '</div><!--audio_player-->';
                                                     } elseif( is_array( $audioplists ) ) {
                                                         echo do_shortcode('[playlist type="audio" ids="'.implode(',', array_keys($audioplists)).'"][/playlist]');
                                                     } elseif ( $audioembedcode != '') {
